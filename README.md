@@ -1,3 +1,4 @@
+```
 ☒ Авторизацию в Gmail
 ☒ LUKS?
 ☑ PGP
@@ -9,3 +10,4 @@
 ☒ SSH on Android
 ☒ VPN on Android
 ☒ Tox on Android
+```
