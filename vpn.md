@@ -51,5 +51,5 @@ EOF
 
 ifup tap8
 ifup sshvpn0
-trezor-agent -c vpn.example.com user@machine
+trezor-agent -e ed25519 -c vpn.example.com user@machine
 ```
