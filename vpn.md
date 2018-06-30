@@ -2,7 +2,7 @@ server:
 ```
 apt-get install -y uml-utilities bridge-utils ifupdown
 
-cat >/etc/network/interaces.d/sshvpn0 <<EOF
+cat >/etc/network/interfaces.d/sshvpn0 <<EOF
 auto  tap8
 iface tap8 inet manual
 	pre-up tunctl -u user -t $IFACE
@@ -26,7 +26,7 @@ client:
 ```
 apt-get install -y uml-utilities bridge-utils ifupdown
 
-cat >/etc/network/interaces.d/sshvpn0 <<EOF
+cat >/etc/network/interfaces.d/sshvpn0 <<EOF
 auto tap8
 iface tap8 inet manual
 	pre-up tunctl -u user -t $IFACE
